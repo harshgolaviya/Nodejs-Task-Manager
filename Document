@@ -1,0 +1,21 @@
+User Side
+
+1 -> User can register
+2 -> After register user must be login into the system
+3 -> After login user can their profile details and delete their own account
+4 -> User can view their all task list by duedate sorting (important task is first).
+5 -> User can add their task detail such as (title,description,startdate,duedate,User refercen Obejct id)
+6 -> User can change their task detail as per user requirement
+7 -> If task is completed User can delete their task detail as per user requirement
+
+
+Admin Side
+
+1 -> Admin can view all kinds of user details and as per admin requirement their can change user information and delete user details
+2 -> Admin can view all the task detail
+
+
+Authentication
+
+1 -> JWT Token based authentication
+2 -> Without authentication only three url work (/login,/register,/admin)
