@@ -32,7 +32,7 @@ app.use('/login',Login)
 app.use('/profile',Profile)
 app.use('/admin',Admin)
 
-const Port = process.env.PORT || 4000
+const Port = process.env.PORT || 3000
 
 app.listen(Port,()=>{
     console.log("Server is listening Port " + Port);
